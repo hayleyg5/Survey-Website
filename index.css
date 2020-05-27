@@ -20,12 +20,15 @@ body {
   position: relative;
   top: 18px;
   left: 10px;
+  color: rgb(255, 140, 0);
+  text-align:center;
 }
 
 .header h2 {
   position: relative;
   top: 18px;
   left: 10px;
+  text-align:center;
 }
 
 .button {
