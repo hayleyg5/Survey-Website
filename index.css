@@ -30,3 +30,13 @@ body {
   top: 18px;
   left: 10px;
 }
+
+.button {
+  color: white;
+  background-colour: black;
+
+#signature {
+  text-align: left;
+  color: blue;
+  font-style: italic;
+}
