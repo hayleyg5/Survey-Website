@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The Works Survey</title>
+    <meta charset="utf-8">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <title>Survey</title>
   </head>
+  
   <body>
     <section>
       <p>
-        <h1 style="color:rgb(255, 140, 0); text-align:left;" width="170" height="142">The Works</h1>
-        <h1 style="color:rgb(0, 0, 0); text-align:right;" width="170" height="142">Customer Survey</h1>
+        <h1 style="color:rgb(255, 140, 0); text-align:center;" width="170" height="142">The Works</h1>
+        <h2 style="color:rgb(0, 0, 0); text-align:center;" width="170" height="142">Customer Survey</h2>
         <a href="https://worksburger.com/">
         <img src="https://worksburger.com/wp-content/uploads/2017/11/header-logo-3.png" alt="https://worksburger.com/" width="200" height="142">
         </a>
@@ -34,11 +37,14 @@
       <select name="favourite">
         <option value="Apples" selected="selected">Apples</option>
         <option value="Oranges">Oranges</option>
+      </select>
         
       Comments:<br>
-        <textarea rows="5" cols="30"/>
+      <textarea rows="5" cols="30"></textarea>
         
-       <input type="submit" value="submit the survey"/>
+      <button id="submitButton" type="button" class="block">
+        Submit
+      </button>
     </form>
   </body>
   <footer>
