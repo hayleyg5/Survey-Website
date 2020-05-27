@@ -26,39 +26,39 @@
       </p>
     </div>
     <div class="question">
-      How was your experience visiting this website?<input type="text" name="answer"><br>
+      Why did you visit this website?<br>
+      <input type="radio" name="answer" value="food">To order food<br>
+      <input type="radio" name="answer" value="menu">To see the menu<br>
+      <input type="radio" name="answer" value="location">To find a location<br>
+      <input type="radio" name="answer" value="other">Other<br>
     </div>
     <br>
+    <div class="question">
+      Were you able to accomplish your task?<br>
+      <input type="text" name="answer"><br>
+    </div>
     <br>
     <div>
       How often do you visit this website?<br>
       <select name="favourite">
-        <option value="First time" selected="selected">First time</option>
-        <option value="Somewhat often" selected="selected">Somewhat often</option>
-        <option value="Very often" selected="selected">Very often</option>
+        <option value="" selected="selected">First time</option>
+        <option value="First time">First time</option>
+        <option value="Somewhat often">Somewhat often</option>
+        <option value="Very often">Very often</option>
       </select>
     </div>
     <br>
-    <br>
-    <div class="question">
-      Is this website easy to navigate?<br>
-      <input type="radio" name="answer" value="yes">Yes<br>
-      <input type="radio" name="answer" value="no">No<br>
-    </div>
-    <br>
-    <br>
     <div class="question">
       Select the statements that apply to you:<br>
-      <input type="checkbox" name="content" value="content">I am able to find everything I need<br>
-      <input type="checkbox" name="content" value="content">I am unable to find everything I need<br>
-      <input type="checkbox" name="colour" value="colour">This website is visually appealing<br>
-      <input type="checkbox" name="colour" value="colour">This website is visually unappealing<br>
+      <input type="checkbox" name="content" value="content">I was able to find everything I need<br>
+      <input type="checkbox" name="content" value="content">I was unable to find everything I need<br>
+      <input type="checkbox" name="colour" value="colour">The website was visually appealing<br>
+      <input type="checkbox" name="colour" value="colour">The website was not visually appealing<br>
     </div>
-    <br>
     <br>
     <div class="question">
       How much do you agree with the following statement?<br>
-      I will recommend this website to others
+      I will recommend this website to others<br>
       <input type="radio" name="answer" value="Strongly Disagree">Strongly Disagree<br>
       <input type="radio" name="answer" value="Somewhat Disagree">Somewhat Disagree<br>
       <input type="radio" name="answer" value="Neutral">Neutral<br>
@@ -66,10 +66,8 @@
       <input type="radio" name="answer" value="Strongly Agree">Strongly Agree<br>
     </div>
     <br>
-    <br>
       Please leave any comments here:<br>
       <textarea rows="5" cols="30"></textarea>
-    <br>
     <br>
     
       <button id="submitButton" type="button" class="block">
