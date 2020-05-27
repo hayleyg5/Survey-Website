@@ -25,8 +25,13 @@ body {
   position: relative;
 }
 
+.statement {
+  color: red;
+}
+
 .question {
   font-size: 18px;
+}
 
 .block {
   display: block;
