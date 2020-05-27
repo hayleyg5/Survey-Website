@@ -14,7 +14,7 @@ body {
 
 .header img {
   float: left;
-  width: 100px;
+  width: 150px;
   height: 100px;
   background: #555;
 }
@@ -23,12 +23,16 @@ body {
   position: relative;
   top: 18px;
   left: 10px;
+  color:rgb(255, 140, 0);
+  text-align:center;
 }
 
 .header h2 {
   position: relative;
   top: 18px;
   left: 10px;
+  color:rgb(0, 0, 0);
+  text-align:center;
 }
 
 .button {
