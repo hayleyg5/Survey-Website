@@ -2,12 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="index.css" rel="stylesheet" type="text/css">
+      <link href="index.css" rel="stylesheet" type="text/css">
     <title>Survey</title>
   </head>
   
   <body>
-    <section>
+    <form id="myform" action="index.php" >
+    <div class="intro">
       <p>
         <h1 style="color:rgb(255, 140, 0); text-align:center;" width="170" height="142">The Works</h1>
         <h2 style="color:rgb(0, 0, 0); text-align:center;" width="170" height="142">Customer Survey</h2>
@@ -18,30 +19,39 @@
       <p>
         <a href="https://worksburger.com/">The Works</a>
       </p>
+    </div>
+    <div class="statement">
       <p>
         <label>Please answer the following questions<label/>
       </p>
-    </section>
-    <form action="index.php" name="The Works Survey" method="POST">
+    </div>
+    <div class="question">
       First name: <input type="text" name="firstname"><br>
       Last name: <input type="text" name="lastname"><br>
-      
-      Are you:<br>
-      <input type="radio" name="sex" value="male">Male<br>
-      <input type="radio" name="sex" value="female">Female<br>
-      
+    </div>
+    
+    <div class="question">
+      Was this website easy to navigate?<br>
+      <input type="radio" name="answer" value="yes">Yes<br>
+      <input type="radio" name="answer" value="no">No<br>
+    </div>
+    <div class="question">
       I like:<br>
       <input type="checkbox" name="Apples" value="Apples">Apples<br>
-      
+    </div>
+    <div>
       What is your favourite fruit?<br>
       <select name="favourite">
         <option value="Apples" selected="selected">Apples</option>
         <option value="Oranges">Oranges</option>
       </select>
-        
-      Comments:<br>
+    </div>
+    
+      Please leave any comments here:<br>
       <textarea rows="5" cols="30"></textarea>
-        
+    <br>
+    <br>
+    
       <button id="submitButton" type="button" class="block">
         Submit
       </button>
