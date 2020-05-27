@@ -25,6 +25,9 @@ body {
   position: relative;
 }
 
+.question {
+  border: black;
+
 .block {
   display: block;
   background-color: black;
