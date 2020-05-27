@@ -4,11 +4,14 @@
     <title>The Works Survey</title>
   </head>
   <body>
-    <h1 style="background-color:rgb(255, 140, 0); text-align:center;" width="170" height="142">The Works Survey</h1>
-    <a href="https://worksburger.com/">
-      <img src="https://worksburger.com/wp-content/uploads/2017/11/header-logo-3.png" alt="https://worksburger.com/" width="200" height="142">
-    </a>
     <section>
+      <p>
+        <h1 style="color:rgb(255, 140, 0); text-align:left;" width="170" height="142">The Works</h1>
+        <h1 style="color:rgb(0, 0, 0); text-align:right;" width="170" height="142">Customer Survey</h1>
+        <a href="https://worksburger.com/">
+        <img src="https://worksburger.com/wp-content/uploads/2017/11/header-logo-3.png" alt="https://worksburger.com/" width="200" height="142">
+        </a>
+      </p>
       <p>
         <a href="https://worksburger.com/">The Works</a>
       </p>
@@ -16,5 +19,13 @@
         <label>Please answer the following questions<label/>
       </p>
     </section>
+    <form action="index.php" name="The Works Survey" method="POST">
+      First name: <input type="text" name="firstname"><br>
+      Last name: <input type="text" name="lastname">
+      
+      Are you:<br>
+      <input type="radio" name="sex" value="male">Male<br>
+      <input type="radio" name="sex" value="female">Female<br>
+    </form>
   </body>
 </html>
