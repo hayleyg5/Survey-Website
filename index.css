@@ -19,10 +19,12 @@ body {
 .header h1 {
   position: relative;
   color: rgb(255, 140, 0);
+  padding-left:100px;
 }
 
 .header h2 {
   position: relative;
+  padding-left:100px;
 }
 
 .question {
